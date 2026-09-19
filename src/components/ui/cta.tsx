@@ -115,11 +115,11 @@ export function WhatsappLink({
 export function WhatsappButton({ className = "", label = "WhatsApp Us" }: { className?: string; label?: string }) {
   return (
     <WhatsappLink
-      className={`btn btn-outline ${className}`}
+      className={`btn btn-whatsapp ${className}`}
       message={`Hello ${site.name}! I'd like to enquire about planning an event.`}
     >
-      <Icon name="whatsapp" size={18} />
-      {label}
+      <Icon name="whatsapp" size={18} className="text-white" />
+      <span className="text-white">{label}</span>
     </WhatsappLink>
   );
 }

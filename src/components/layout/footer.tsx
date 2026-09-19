@@ -29,8 +29,8 @@ export function Footer() {
               rel="noopener noreferrer"
               className="mt-6 inline-flex items-center gap-2.5 rounded-full bg-[#25D366] px-5 py-2.5 text-sm font-medium text-white shadow-sm transition-transform duration-300 hover:scale-[1.03]"
             >
-              <Icon name="whatsapp" size={18} />
-              WhatsApp us
+              <Icon name="whatsapp" size={18} className="text-white" />
+              <span className="text-white">WhatsApp us</span>
             </a>
           </div>
 

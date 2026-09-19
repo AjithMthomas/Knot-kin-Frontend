@@ -166,11 +166,11 @@ export function Header() {
               <Icon name="arrow" size={16} className="arrow" />
             </Link>
             <WhatsappLink
-              className="btn btn-outline w-full"
+              className="btn btn-whatsapp w-full"
               message={`Hello ${site.name}! I'd like to enquire about planning an event.`}
             >
-              <Icon name="whatsapp" size={18} />
-              WhatsApp Us
+              <Icon name="whatsapp" size={18} className="text-white" />
+              <span className="text-white">WhatsApp Us</span>
             </WhatsappLink>
           </div>
 

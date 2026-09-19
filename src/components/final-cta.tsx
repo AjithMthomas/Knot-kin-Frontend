@@ -31,10 +31,7 @@ export function FinalCta({
             <CtaButton href="/plan-my-event" variant="light">
               Plan My Event
             </CtaButton>
-            <WhatsappButton
-              className="border-white/40 text-white hover:border-white"
-              label="WhatsApp Us"
-            />
+            <WhatsappButton label="WhatsApp Us" />
           </div>
           <p className="accent-italic mt-10 text-lg text-white/80">Together, we make it happen.</p>
           <p className="mt-6 text-[0.72rem] uppercase tracking-[0.22em] text-white/40">
