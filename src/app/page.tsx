@@ -6,6 +6,7 @@ import { SmartImage } from "@/components/ui/smart-image";
 import { photo } from "@/data/photos";
 import { KeralaMap } from "@/components/kerala-map";
 import { FinalCta } from "@/components/final-cta";
+import { HeroSlideshow } from "@/components/hero-slideshow";
 import { Icon } from "@/components/ui/icon";
 import { eventCategories } from "@/data/site";
 import { services } from "@/data/services";
@@ -58,18 +59,9 @@ export default function HomePage() {
     <>
       {/* ============ 01 · Wedding-invitation hero ============ */}
       <section className="relative flex min-h-[100svh] items-center justify-center overflow-hidden bg-forest-deep">
-        <SmartImage
-          src={photo.heroHome.src}
-          fallback={photo.heroHome.fallback}
-          alt="Wedding ceremony arch beneath open skies — placeholder photograph"
-          overlay="hero"
-          className="absolute inset-0 h-full w-full"
-          priority
-        />
-        {/* extra center vignette for text legibility */}
-        <div aria-hidden="true" className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(16,24,37,0.42)_0%,rgba(16,24,37,0.18)_45%,rgba(16,24,37,0.55)_100%)]" />
+        <HeroSlideshow />
 
-        <div className="relative mx-auto w-full max-w-6xl px-5 py-32 text-center sm:px-8">
+        <div className="relative z-20 mx-auto w-full max-w-6xl px-5 py-32 text-center sm:px-8">
          
 
           <Reveal delay={110}>
@@ -206,7 +198,8 @@ export default function HomePage() {
           <div className="rounded-sm border border-dashed border-brass/70 bg-parchment/60 p-8 text-center md:p-10">
             <h3 className="font-serif text-2xl text-ink">Something else in mind?</h3>
             <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-ink-soft">
-              Have an idea that doesn&apos;t fit a category? We can work with you to shape it.
+              Have an idea that doesn&apos;t fit a categor
+              y? We can work with you to shape it.
             </p>
             <div className="mt-5 flex justify-center">
               <ArrowLink href="/events/custom-events">Explore custom events</ArrowLink>

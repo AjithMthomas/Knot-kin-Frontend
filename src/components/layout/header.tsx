@@ -14,6 +14,9 @@ export function Header() {
   const pathname = usePathname();
   const overDark = !scrolled && !open;
 
+  const leftNav = nav.slice(0, 3);
+  const rightNav = nav.slice(3);
+
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 24);
@@ -54,12 +57,35 @@ export function Header() {
             : "border-b border-transparent bg-transparent"
         }`}
       >
-        <div className="mx-auto flex h-20 w-full max-w-7xl items-center justify-between px-5 sm:px-8 md:h-[5.5rem]">
-          {/* left: brand logo & desktop navigation */}
-          <div className="flex items-center gap-8 lg:gap-12">
+        <div className="relative mx-auto flex h-20 w-full max-w-7xl items-center justify-between px-5 sm:px-8 md:h-[5.5rem]">
+          {/* Left: Desktop navigation */}
+          <nav aria-label="Primary Left" className="hidden items-center gap-6 xl:flex 2xl:gap-8">
+            {leftNav.map((item) => {
+              const active = pathname === item.href || pathname.startsWith(item.href + "/");
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  aria-current={active ? "page" : undefined}
+                  className={`text-[0.7rem] font-medium uppercase tracking-[0.22em] transition-colors duration-500 ${
+                    overDark
+                      ? "text-white/90 hover:text-white"
+                      : active
+                        ? "text-terracotta"
+                        : "text-ink hover:text-terracotta"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
+          </nav>
+
+          {/* Center: Brand logo */}
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
             <Link
               href="/"
-              className="group relative shrink-0"
+              className="group relative block shrink-0"
               aria-label={`${site.name} — home`}
             >
               <span className="relative block h-14 w-14 md:h-16 md:w-16 drop-shadow-[0_2px_10px_rgba(10,16,26,0.55)]">
@@ -68,15 +94,18 @@ export function Header() {
                   alt="knot&kin"
                   width={64}
                   height={78}
-                  className="h-full w-full object-contain object-left transition-opacity duration-500"
+                  className="h-full w-full object-contain object-center transition-opacity duration-500"
                   priority
                   unoptimized
                 />
               </span>
             </Link>
+          </div>
 
-            <nav aria-label="Primary" className="hidden items-center gap-6 xl:flex 2xl:gap-8">
-              {nav.map((item) => {
+          {/* Right: Desktop navigation + CTA & Mobile menu toggle */}
+          <div className="ml-auto flex items-center gap-6 2xl:gap-8">
+            <nav aria-label="Primary Right" className="hidden items-center gap-6 xl:flex 2xl:gap-8">
+              {rightNav.map((item) => {
                 const active = pathname === item.href || pathname.startsWith(item.href + "/");
                 return (
                   <Link
@@ -96,10 +125,7 @@ export function Header() {
                 );
               })}
             </nav>
-          </div>
 
-          {/* right: mobile hamburger / desktop CTA */}
-          <div className="flex items-center justify-end gap-3">
             <div className="hidden sm:block">
               <Link
                 href="/plan-my-event"
@@ -113,6 +139,7 @@ export function Header() {
                 <Icon name="arrow" size={14} className="arrow" />
               </Link>
             </div>
+
             <button
               type="button"
               className={`grid h-11 w-11 place-items-center transition-colors duration-500 xl:hidden ${

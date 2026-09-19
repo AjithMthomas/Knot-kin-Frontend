@@ -36,3 +36,26 @@ export const photo = {
   galleryDetail: { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1200&auto=format&fit=crop", fallback: "/images/gallery-5.svg" },
   galleryEvening: { src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop", fallback: "/images/gallery-6.svg" },
 } as const;
+
+export const heroSlides = [
+  {
+    src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2000&auto=format&fit=crop",
+    fallback: "/images/hero-home-dark.svg",
+    alt: "Wedding ceremony arch beneath open skies — Knot&Kin",
+  },
+  {
+    src: "/images/bg-2.png",
+    fallback: "/images/hero-home-dark.svg",
+    alt: "Beautiful event setting — Knot&Kin background 2",
+  },
+  {
+    src: "/images/bg-3.png",
+    fallback: "/images/hero-about-dark.svg",
+    alt: "Elegant celebration backdrop — Knot&Kin background 3",
+  },
+  {
+    src: "/images/bg-4.png",
+    fallback: "/images/hero-work-dark.svg",
+    alt: "Memorable celebration moment — Knot&Kin background 4",
+  },
+] as const;

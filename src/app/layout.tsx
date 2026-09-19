@@ -4,6 +4,7 @@ import "./globals.css";
 import { site } from "@/data/site";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { LoadingScreen } from "@/components/loading-screen";
 
 const ovo = Ovo({
   weight: "400",
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${ovo.variable} ${inter.variable} ${playfair.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
+        <LoadingScreen />
         <a
           href="#main"
           className="btn btn-primary sr-only z-[100] fixed top-3 left-3 min-h-0 py-3"

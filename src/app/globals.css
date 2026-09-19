@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss/index.css";
 
 /*
   KNOT&KIN — design tokens (reference-matched)
@@ -368,3 +368,13 @@ body {
     background: var(--color-taupe);
   }
 }
+
+@keyframes loading-bar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
