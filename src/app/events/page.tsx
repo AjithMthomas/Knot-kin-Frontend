@@ -36,25 +36,23 @@ export default function EventsPage() {
           title="Seven kinds of celebrations."
         />
 
-        {/* filters — touch friendly, scrollable on small screens */}
-        <div className="mt-10 -mx-5 overflow-x-auto px-5 pb-2 sm:mx-0 sm:px-0" role="group" aria-label="Filter event categories">
-          <div className="flex w-max gap-2 sm:flex-wrap">
-            {filters.map((f) => (
-              <button
-                key={f}
-                type="button"
-                onClick={() => setActive(f)}
-                aria-pressed={active === f}
-                className={`whitespace-nowrap rounded-full border px-4 py-2 text-[0.72rem] font-medium uppercase tracking-[0.16em] transition-colors ${
-                  active === f
-                    ? "border-forest bg-forest text-ivory"
-                    : "border-ink/20 bg-transparent text-ink-soft hover:border-ink/50"
-                }`}
-              >
-                {f}
-              </button>
-            ))}
-          </div>
+        {/* category filter pills — wrapped across lines without horizontal scrolling */}
+        <div className="mt-8 flex flex-wrap gap-2.5 sm:gap-3" role="group" aria-label="Filter event categories">
+          {filters.map((f) => (
+            <button
+              key={f}
+              type="button"
+              onClick={() => setActive(f)}
+              aria-pressed={active === f}
+              className={`rounded-full border px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] transition-all duration-300 ${
+                active === f
+                  ? "border-forest bg-forest text-ivory shadow-sm"
+                  : "border-ink/20 bg-white text-ink-soft hover:border-ink/50 hover:text-ink"
+              }`}
+            >
+              {f}
+            </button>
+          ))}
         </div>
 
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
