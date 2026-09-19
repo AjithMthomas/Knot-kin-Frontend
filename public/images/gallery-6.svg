@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="460" viewBox="0 0 560 460" role="img" aria-label="Evening · placeholder caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="430"/></clipPath>
+  </defs>
+  <rect width="560" height="460" fill="#263C32"/>
+  <rect width="560" height="460" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="432" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    <path d="M72.78892634137434 0 v 150.9005853868095" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="72.78892634137434" cy="166.52526375048353" r="7.81233918183701" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="72.78892634137434" cy="166.52526375048353" r="3.5" fill="#AA9475" opacity="0.5"/><path d="M155.93867893511307 0 v 141.81398282275904" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="155.93867893511307" cy="165.07080136059858" r="11.62840926891976" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="155.93867893511307" cy="165.07080136059858" r="5.2" fill="#AA9475" opacity="0.5"/><path d="M242.6983738752998 0 v 140.80142493248118" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="242.6983738752998" cy="157.0472367937185" r="8.122905930618668" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="242.6983738752998" cy="157.0472367937185" r="3.7" fill="#AA9475" opacity="0.5"/><path d="M306.7200563053787 0 v 118.99039840697347" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="306.7200563053787" cy="140.9417437165433" r="10.975672654784912" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="306.7200563053787" cy="140.9417437165433" r="4.9" fill="#AA9475" opacity="0.5"/><path d="M384.5212992471841 0 v 143.65091100488874" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="384.5212992471841" cy="163.73177527052516" r="10.040432132818207" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="384.5212992471841" cy="163.73177527052516" r="4.5" fill="#AA9475" opacity="0.5"/><path d="M466.17151775040804 0 v 130.2419168411213" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="466.17151775040804" cy="153.25246674311578" r="11.50527495099723" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="466.17151775040804" cy="153.25246674311578" r="5.2" fill="#AA9475" opacity="0.5"/>
+<path d="M40 330 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.5"/><path d="M40 356 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.41000000000000003"/><path d="M40 382 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.32"/><path d="M40 408 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.22999999999999998"/>
+  </g>
+  <rect width="560" height="460" filter="url(#g1)"/>
+  <text x="26" y="434" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">EVENING · PLACEHOLDER</text>
+</svg>

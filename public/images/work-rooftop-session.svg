@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="640" viewBox="0 0 560 640" role="img" aria-label="Rooftop session · placeholder caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="610"/></clipPath>
+  </defs>
+  <rect width="560" height="640" fill="#1D2F27"/>
+  <rect width="560" height="640" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="612" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g fill="none" stroke="#302B26" stroke-width="1.2" opacity="0.65">
+    <rect x="176" y="270" width="34" height="58" rx="17"/>
+    <path d="M160 306 a33 33 0 0 0 66 0 M193 336 v26 M176 362 h34"/>
+  </g>
+<rect x="239.08125558782487" y="174.48409115381918" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(89.0689674476804 239.08125558782487 174.48409115381918)"/><circle cx="309.6672561482221" cy="212.6996530990113" r="3.8" fill="#AA9475" opacity="0.4"/><circle cx="380.74904387886545" cy="240.3655429839767" r="4.5" fill="#263C32" opacity="0.4"/><rect x="252.74673070083068" y="172.79959103353283" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(172.29937028353976 252.74673070083068 172.79959103353283)"/><circle cx="489.0401273118706" cy="150.82129264326886" r="3.2" fill="#AA9475" opacity="0.4"/><circle cx="448.36625731398004" cy="210.4245536778351" r="4.4" fill="#263C32" opacity="0.4"/><rect x="406.28256740633634" y="125.20202811826209" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(42.869264346425666 406.28256740633634 125.20202811826209)"/><circle cx="411.33252878797475" cy="107.70010375669236" r="4.1" fill="#AA9475" opacity="0.4"/><circle cx="339.48551448014143" cy="210.94847969799162" r="3.4" fill="#263C32" opacity="0.4"/><rect x="443.70249839844416" y="185.7760771324635" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(157.26594304411293 443.70249839844416 185.7760771324635)"/><circle cx="179.05647177161322" cy="206.7295639419272" r="3.3" fill="#AA9475" opacity="0.4"/><circle cx="142.50723989913914" cy="190.13918873866945" r="4.3" fill="#263C32" opacity="0.4"/><rect x="421.70576052899077" y="147.45915903007534" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(122.91532860409032 421.70576052899077 147.45915903007534)"/><circle cx="446.04694504853984" cy="109.70680679632984" r="4.3" fill="#AA9475" opacity="0.4"/><circle cx="60.57940112480838" cy="112.40837364216183" r="2.5" fill="#263C32" opacity="0.4"/><rect x="364.8583954990454" y="242.63458117622378" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(31.135727261319502 364.8583954990454 242.63458117622378)"/>
+<path d="M140 140 c 3.5999999999999996 16.8 10.799999999999999 24 26.4 27.599999999999998 c -15.6 3.5999999999999996 -22.8 10.799999999999999 -26.4 27.599999999999998 c -3.5999999999999996 -16.8 -10.799999999999999 -24 -26.4 -27.599999999999998 c 15.6 -3.5999999999999996 22.8 -10.799999999999999 26.4 -27.599999999999998 Z" fill="#AA9475" opacity="0.5"/>
+  </g>
+  <rect width="560" height="640" filter="url(#g1)"/>
+  <text x="26" y="614" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">ROOFTOP SESSION · PLACEHOLDER</text>
+</svg>

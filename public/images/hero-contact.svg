@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" role="img" aria-label="Tell us your story caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="730" height="610"/></clipPath>
+  </defs>
+  <rect width="760" height="640" fill="#FAF7F1"/>
+  <rect width="760" height="640" filter="url(#p1)"/>
+  <rect x="14" y="14" width="732" height="612" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    <path d="M520 130 q 28 -26 54 -6" fill="none" stroke="#263C32" stroke-width="1.2" opacity="0.5"/><ellipse cx="550" cy="116" rx="15" ry="6.5" transform="rotate(-18 550 116)" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.45"/><path d="M520 192 q -28 -26 -54 -6" fill="none" stroke="#263C32" stroke-width="1.2" opacity="0.5"/><ellipse cx="490" cy="178" rx="15" ry="6.5" transform="rotate(18 490 178)" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.45"/><path d="M520 254 q 28 -26 54 -6" fill="none" stroke="#263C32" stroke-width="1.2" opacity="0.5"/><ellipse cx="550" cy="240" rx="15" ry="6.5" transform="rotate(-18 550 240)" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.45"/><path d="M520 316 q -28 -26 -54 -6" fill="none" stroke="#263C32" stroke-width="1.2" opacity="0.5"/><ellipse cx="490" cy="302" rx="15" ry="6.5" transform="rotate(18 490 302)" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.45"/><path d="M520 378 q 28 -26 54 -6" fill="none" stroke="#263C32" stroke-width="1.2" opacity="0.5"/><ellipse cx="550" cy="364" rx="15" ry="6.5" transform="rotate(-18 550 364)" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.45"/>
+<path d="M40 330 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.5"/><path d="M40 356 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.41000000000000003"/><path d="M40 382 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.32"/><path d="M40 408 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.22999999999999998"/>
+<path d="M600 150 c 3.3000000000000003 15.400000000000002 9.9 22 24.200000000000003 25.3 c -14.3 3.3000000000000003 -20.900000000000002 9.9 -24.200000000000003 25.3 c -3.3000000000000003 -15.400000000000002 -9.9 -22 -24.200000000000003 -25.3 c 14.3 -3.3000000000000003 20.900000000000002 -9.9 24.200000000000003 -25.3 Z" fill="#AA9475" opacity="0.5"/>
+  </g>
+  <rect width="760" height="640" filter="url(#g1)"/>
+  <text x="26" y="614" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">TELL US YOUR STORY</text>
+</svg>

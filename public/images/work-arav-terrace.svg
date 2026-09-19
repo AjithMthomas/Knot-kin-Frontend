@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="640" viewBox="0 0 560 640" role="img" aria-label="First birthday · placeholder caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="610"/></clipPath>
+  </defs>
+  <rect width="560" height="640" fill="#EAE1D4"/>
+  <rect width="560" height="640" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="612" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g fill="none" stroke="#302B26" stroke-width="1.2" opacity="0.65">
+    <path d="M150 350 h90 v44 h-90 z"/>
+    <path d="M162 350 v-34 h66 v34"/>
+    <path d="M174 316 v-18 h46 v18"/>
+    <path d="M192 298 v-14 M204 298 v-10"/>
+    <path d="M192 284 l-4 8 h8 z" fill="#A87963" opacity="0.7"/>
+  </g>
+<rect x="71.4482944379079" y="140.80217091441358" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(97.50440265750923 71.4482944379079 140.80217091441358)"/><circle cx="149.21271414422682" cy="212.89816465964373" r="3.0" fill="#AA9475" opacity="0.4"/><circle cx="350.21174713057627" cy="162.9590529137841" r="4.0" fill="#263C32" opacity="0.4"/><rect x="422.0612123441521" y="245.62591200287073" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(163.80332972277265 422.0612123441521 245.62591200287073)"/><circle cx="359.5979002486895" cy="253.0109053505686" r="4.0" fill="#AA9475" opacity="0.4"/><circle cx="324.4587716501753" cy="213.08637433972802" r="2.6" fill="#263C32" opacity="0.4"/><rect x="119.82241423784049" y="103.64600455262327" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(19.48207717340633 119.82241423784049 103.64600455262327)"/><circle cx="97.33231244360312" cy="91.6143782870978" r="4.4" fill="#AA9475" opacity="0.4"/><circle cx="144.48496470645534" cy="112.71996048532422" r="3.8" fill="#263C32" opacity="0.4"/><rect x="167.03402121275104" y="167.58070874268253" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(178.912124018103 167.03402121275104 167.58070874268253)"/><circle cx="245.9449306558305" cy="204.53808758364812" r="3.3" fill="#AA9475" opacity="0.4"/><circle cx="243.23239820379055" cy="100.4003760920841" r="4.1" fill="#263C32" opacity="0.4"/><rect x="488.72059677608365" y="115.91344917278127" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(166.5967495800897 488.72059677608365 115.91344917278127)"/><circle cx="283.8385048171864" cy="110.76787769400318" r="3.7" fill="#AA9475" opacity="0.4"/><circle cx="135.0326858973435" cy="103.27341950337721" r="3.8" fill="#263C32" opacity="0.4"/><rect x="304.6868255405564" y="171.70755923884695" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(178.88698409207817 304.6868255405564 171.70755923884695)"/>
+<path d="M40 80 Q 145 126 250 60" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.5"/><path d="M250 60 Q 365 112 480 84" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.5"/><circle cx="80" cy="102" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="128" cy="110" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="176" cy="112" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/><circle cx="224" cy="106" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="272" cy="102" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="320" cy="104" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/><circle cx="368" cy="110" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="416" cy="112" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="464" cy="110" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/>
+  </g>
+  <rect width="560" height="640" filter="url(#g1)"/>
+  <text x="26" y="614" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">FIRST BIRTHDAY · PLACEHOLDER</text>
+</svg>

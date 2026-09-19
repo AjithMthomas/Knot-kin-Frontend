@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="460" viewBox="0 0 560 460" role="img" aria-label="Corporate · moodboard caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="430"/></clipPath>
+  </defs>
+  <rect width="560" height="460" fill="#263C32"/>
+  <rect width="560" height="460" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="432" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    <path d="M76.4141092565042 0 v 130.4873991371015" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="76.4141092565042" cy="149.18458106106576" r="9.348590961982115" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="76.4141092565042" cy="149.18458106106576" r="4.2" fill="#AA9475" opacity="0.5"/><path d="M163.07330644044401 0 v 164.98701429738384" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="163.07330644044401" cy="180.31990119937797" r="7.666443450997066" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="163.07330644044401" cy="180.31990119937797" r="3.4" fill="#AA9475" opacity="0.5"/><path d="M239.66049059821339 0 v 115.22297176180683" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="239.66049059821339" cy="134.10461886143742" r="9.440823549815288" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="239.66049059821339" cy="134.10461886143742" r="4.2" fill="#AA9475" opacity="0.5"/><path d="M299.68571839452324 0 v 111.69580840384197" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="299.68571839452324" cy="137.65027023912432" r="12.977230917641176" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="299.68571839452324" cy="137.65027023912432" r="5.8" fill="#AA9475" opacity="0.5"/><path d="M377.2801318851115 0 v 150.07633202809498" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="377.2801318851115" cy="165.80736583546488" r="7.865516903684956" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="377.2801318851115" cy="165.80736583546488" r="3.5" fill="#AA9475" opacity="0.5"/><path d="M458.9705616635928 0 v 147.7481844665" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="458.9705616635928" cy="163.40172539409411" r="7.82677046379705" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="458.9705616635928" cy="163.40172539409411" r="3.5" fill="#AA9475" opacity="0.5"/>
+
+  <g fill="none" stroke="#302B26" stroke-width="1.2" opacity="0.65">
+    <rect x="176" y="270" width="34" height="58" rx="17"/>
+    <path d="M160 306 a33 33 0 0 0 66 0 M193 336 v26 M176 362 h34"/>
+  </g>
+<path d="M90 140 c 2.7 12.6 8.1 18 19.8 20.7 c -11.700000000000001 2.7 -17.1 8.1 -19.8 20.7 c -2.7 -12.6 -8.1 -18 -19.8 -20.7 c 11.700000000000001 -2.7 17.1 -8.1 19.8 -20.7 Z" fill="#AA9475" opacity="0.5"/>
+  </g>
+  <rect width="560" height="460" filter="url(#g1)"/>
+  <text x="26" y="434" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">CORPORATE · MOODBOARD</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" role="img" aria-label="We're here to make it feel like yours caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="1410" height="780"/></clipPath>
+  </defs>
+  <rect width="1440" height="810" fill="#1D2F27"/>
+  <rect width="1440" height="810" filter="url(#p1)"/>
+  <rect x="14" y="14" width="1412" height="782" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g fill="none" stroke="#F4EFE6" stroke-width="1.3" opacity="0.9">
+    <rect x="150" y="220" width="260" height="150"/>
+    <path d="M138 220 h284 l-20 -34 h-244 z"/>
+    <path d="M150 220 v-8 M410 220 v-8" stroke="#AA9475"/>
+    <rect x="196" y="252" width="36" height="52"/><rect x="262" y="252" width="36" height="52"/><rect x="328" y="252" width="36" height="52"/>
+    <rect x="262" y="322" width="36" height="48"/>
+    <path d="M196 304 h36 M262 304 h36 M328 304 h36 M196 278 h36 M262 278 h36 M328 278 h36" stroke-width="0.8" opacity="0.7"/>
+    <path d="M120 370 h320" stroke="#AA9475" stroke-width="1" opacity="0.8"/>
+  </g>
+<g fill="none" stroke="#9DB29A" stroke-width="1.1" opacity="0.8"><circle cx="60" cy="352" r="20"/><circle cx="116" cy="352" r="26"/><circle cx="172" cy="352" r="32"/><circle cx="228" cy="352" r="20"/><circle cx="284" cy="352" r="26"/><circle cx="340" cy="352" r="32"/><circle cx="396" cy="352" r="20"/><circle cx="452" cy="352" r="26"/><circle cx="508" cy="352" r="32"/></g>
+<path d="M20 120 Q 280 190 540 110" fill="none" stroke="#AA9475" stroke-width="1" opacity="0.6"/><path d="M30 116 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="30" cy="134" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="30" cy="134" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M75.45454545454545 132.34048829680293 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="75.45454545454545" cy="150.34048829680293" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="75.45454545454545" cy="150.34048829680293" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M120.9090909090909 147.35716741242464 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="120.9090909090909" cy="165.35716741242464" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="120.9090909090909" cy="165.35716741242464" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M166.36363636363635 159.83347531254697 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="166.36363636363635" cy="177.83347531254697" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="166.36363636363635" cy="177.83347531254697" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M211.8181818181818 168.75865573056205 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="211.8181818181818" cy="186.75865573056205" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="211.8181818181818" cy="186.75865573056205" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M257.27272727272725 173.4096436290941 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="257.27272727272725" cy="191.4096436290941" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="257.27272727272725" cy="191.4096436290941" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M302.7272727272727 173.4096436290941 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="302.7272727272727" cy="191.4096436290941" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="302.7272727272727" cy="191.4096436290941" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M348.1818181818182 168.75865573056205 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="348.1818181818182" cy="186.75865573056205" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="348.1818181818182" cy="186.75865573056205" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M393.6363636363636 159.833475312547 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="393.6363636363636" cy="177.833475312547" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="393.6363636363636" cy="177.833475312547" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M439.0909090909091 147.35716741242464 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="439.0909090909091" cy="165.35716741242464" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="439.0909090909091" cy="165.35716741242464" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M484.5454545454545 132.34048829680293 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="484.5454545454545" cy="150.34048829680293" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="484.5454545454545" cy="150.34048829680293" r="8" fill="#E8CFA0" opacity="0.18"/><path d="M530 116 v14" stroke="#AA9475" stroke-width="0.8" opacity="0.55"/><circle cx="530" cy="134" r="3.4" fill="#E8CFA0" opacity="0.95"/><circle cx="530" cy="134" r="8" fill="#E8CFA0" opacity="0.18"/></g>
+  </g>
+  <rect width="1440" height="810" filter="url(#g1)"/>
+  <text x="26" y="784" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">WE'RE HERE TO MAKE IT FEEL LIKE YOURS</text>
+</svg>

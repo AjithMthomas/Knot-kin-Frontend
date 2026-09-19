@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" role="img" aria-label="Whatever the occasion caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="730" height="610"/></clipPath>
+  </defs>
+  <rect width="760" height="640" fill="#EAE1D4"/>
+  <rect width="760" height="640" filter="url(#p1)"/>
+  <rect x="14" y="14" width="732" height="612" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    <path d="M90 430 V 200 A 34 34 0 0 1 158 200 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.5"/>
+<path d="M180 430 V 192 A 31 31 0 0 1 242 192 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.44"/>
+<path d="M270 430 V 184 A 28 28 0 0 1 326 184 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.38"/>
+<path d="M360 430 V 176 A 25 25 0 0 1 410 176 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.32"/>
+
+  <g fill="none" stroke="#302B26" stroke-width="1.2" opacity="0.65">
+    <path d="M150 350 h90 v44 h-90 z"/>
+    <path d="M162 350 v-34 h66 v34"/>
+    <path d="M174 316 v-18 h46 v18"/>
+    <path d="M192 298 v-14 M204 298 v-10"/>
+    <path d="M192 284 l-4 8 h8 z" fill="#A87963" opacity="0.7"/>
+  </g>
+<path d="M40 80 Q 145 126 250 60" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.5"/><path d="M250 60 Q 365 112 480 84" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.5"/><circle cx="80" cy="102" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="128" cy="110" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="176" cy="112" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/><circle cx="224" cy="106" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="272" cy="102" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="320" cy="104" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/><circle cx="368" cy="110" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="416" cy="112" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="464" cy="110" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/>
+<path d="M620 140 c 3 14 9 20 22 23 c -13 3 -19 9 -22 23 c -3 -14 -9 -20 -22 -23 c 13 -3 19 -9 22 -23 Z" fill="#AA9475" opacity="0.5"/>
+  </g>
+  <rect width="760" height="640" filter="url(#g1)"/>
+  <text x="26" y="614" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">WHATEVER THE OCCASION</text>
+</svg>

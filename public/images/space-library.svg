@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="The reading room caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="610" height="390"/></clipPath>
+  </defs>
+  <rect width="640" height="420" fill="#1D2F27"/>
+  <rect width="640" height="420" filter="url(#p1)"/>
+  <rect x="14" y="14" width="612" height="392" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g fill="none" stroke="#F4EFE6" stroke-width="1.1" opacity="0.9">
+    <rect x="160" y="170" width="240" height="210"/>
+    <path d="M160 235 h240 M160 300 h240" stroke-width="0.9"/>
+    <path d="M172 235 v-34" stroke-width="2" opacity="0.75"/><path d="M192 235 v-47" stroke-width="2" opacity="0.75"/><path d="M212 235 v-42" stroke-width="2" opacity="0.75"/><path d="M232 235 v-37" stroke-width="2" opacity="0.75"/><path d="M252 235 v-50" stroke-width="2" opacity="0.75"/><path d="M272 235 v-45" stroke-width="2" opacity="0.75"/><path d="M292 235 v-40" stroke-width="2" opacity="0.75"/><path d="M312 235 v-35" stroke-width="2" opacity="0.75"/><path d="M332 235 v-48" stroke-width="2" opacity="0.75"/><path d="M352 235 v-43" stroke-width="2" opacity="0.75"/><path d="M372 235 v-38" stroke-width="2" opacity="0.75"/><path d="M392 235 v-51" stroke-width="2" opacity="0.75"/>
+    <path d="M172 300 v-30" stroke-width="2" opacity="0.75"/><path d="M192 300 v-31" stroke-width="2" opacity="0.75"/><path d="M212 300 v-32" stroke-width="2" opacity="0.75"/><path d="M232 300 v-33" stroke-width="2" opacity="0.75"/><path d="M252 300 v-34" stroke-width="2" opacity="0.75"/><path d="M272 300 v-35" stroke-width="2" opacity="0.75"/><path d="M292 300 v-36" stroke-width="2" opacity="0.75"/><path d="M312 300 v-37" stroke-width="2" opacity="0.75"/><path d="M332 300 v-38" stroke-width="2" opacity="0.75"/><path d="M352 300 v-39" stroke-width="2" opacity="0.75"/><path d="M372 300 v-40" stroke-width="2" opacity="0.75"/><path d="M392 300 v-41" stroke-width="2" opacity="0.75"/>
+    <circle cx="280" cy="340" r="14" stroke="#E8CFA0" stroke-width="1.3"/>
+    <path d="M280 326 v-10" stroke="#E8CFA0" stroke-width="1.3"/>
+  </g>
+  </g>
+  <rect width="640" height="420" filter="url(#g1)"/>
+  <text x="26" y="394" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">THE READING ROOM</text>
+</svg>

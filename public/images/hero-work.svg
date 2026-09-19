@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" role="img" aria-label="Moments we've made caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="730" height="610"/></clipPath>
+  </defs>
+  <rect width="760" height="640" fill="#EAE1D4"/>
+  <rect width="760" height="640" filter="url(#p1)"/>
+  <rect x="14" y="14" width="732" height="612" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    <path d="M90 430 V 200 A 34 34 0 0 1 158 200 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.5"/>
+<path d="M180 430 V 192 A 31 31 0 0 1 242 192 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.44"/>
+<path d="M270 430 V 184 A 28 28 0 0 1 326 184 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.38"/>
+<path d="M360 430 V 176 A 25 25 0 0 1 410 176 V 430" fill="none" stroke="#8C8175" stroke-width="1.1" opacity="0.32"/>
+
+  <g stroke="#302B26" stroke-width="1.2" fill="none" opacity="0.65">
+    <path d="M60 420 h360"/>
+    <path d="M110 420 c0-70 8-96 26-96 18 0 26 26 26 96"/>
+    <rect x="210" y="330" width="120" height="90" rx="3"/>
+    <path d="M210 348 h120"/>
+    <circle cx="402" cy="382" r="26"/>
+    <path d="M402 356 v-22 M395 334 h14 M402 334 v-10"/>
+    <path d="M368 420 v-30 q34 -18 68 0 v30"/>
+  </g>
+<path d="M83.83169584333123 0 v 160.65233309813993" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="83.83169584333123" cy="175.9081808718929" r="7.6279238868764825" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="83.83169584333123" cy="175.9081808718929" r="3.4" fill="#AA9475" opacity="0.5"/><path d="M166.06723510666492 0 v 138.11339486773443" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="166.06723510666492" cy="161.98886932431617" r="11.937737228290864" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="166.06723510666492" cy="161.98886932431617" r="5.4" fill="#AA9475" opacity="0.5"/><path d="M230.19841678645315 0 v 160.23395451645735" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="230.19841678645315" cy="183.72123514741776" r="11.743640315480196" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="230.19841678645315" cy="183.72123514741776" r="5.3" fill="#AA9475" opacity="0.5"/><path d="M313.451168430458 0 v 162.32066093508217" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="313.451168430458" cy="186.6186488639737" r="12.148993964445772" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="313.451168430458" cy="186.6186488639737" r="5.5" fill="#AA9475" opacity="0.5"/><path d="M376.5662683924346 0 v 155.2550439464441" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="376.5662683924346" cy="171.11007475676954" r="7.927515405162717" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="376.5662683924346" cy="171.11007475676954" r="3.6" fill="#AA9475" opacity="0.5"/><path d="M451.00581706595216 0 v 164.19027477893073" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="451.00581706595216" cy="189.64768405039578" r="12.728704635732532" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="451.00581706595216" cy="189.64768405039578" r="5.7" fill="#AA9475" opacity="0.5"/>
+<path d="M640 180 c 3 14 9 20 22 23 c -13 3 -19 9 -22 23 c -3 -14 -9 -20 -22 -23 c 13 -3 19 -9 22 -23 Z" fill="#AA9475" opacity="0.5"/>
+  </g>
+  <rect width="760" height="640" filter="url(#g1)"/>
+  <text x="26" y="614" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">MOMENTS WE'VE MADE</text>
+</svg>

@@ -1,0 +1,353 @@
+@import "tailwindcss";
+
+/*
+  KNOT&KIN — design tokens (reference-matched)
+  Cool light-gray surfaces, dark slate ink, deep navy primary, restrained blue accent.
+  Token names kept from v1 (ivory/parchment/forest) for stability — values now match
+  the Lafayette-style reference: light #F7F9FC canvas, white cards, slate navy darks.
+*/
+@theme {
+  --color-ivory: #f7f9fc;        /* page canvas (cool light) */
+  --color-ivory-soft: #ffffff;   /* card surface */
+  --color-parchment: #eef2f8;    /* alternate section tint */
+  --color-parchment-deep: #e3eaf3;
+  --color-ink: #1f2a3a;          /* heading slate */
+  --color-ink-soft: #5b6b80;     /* body slate */
+  --color-taupe: #8494a8;        /* muted slate */
+  --color-forest: #24344a;       /* primary dark (buttons, footer, overlays) */
+  --color-forest-deep: #16202f;  /* hero overlay base */
+  --color-terracotta: #4a7fd0;   /* accent blue */
+  --color-brass: #93a5bc;        /* muted slate accent */
+  --color-line: #e2e8f1;         /* hairlines & card borders */
+  --color-whatsapp: #25d366;     /* WhatsApp brand green */
+
+  --font-serif: var(--font-ovo), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-inter), Inter, "Helvetica Neue", Arial, sans-serif;
+  --font-accent: var(--font-playfair), "Playfair Display", Georgia, serif;
+
+  --tracking-eyebrow: 0.28em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-forest);
+  color: #ffffff;
+}
+
+/* ---------- typography helpers ---------- */
+.font-serif {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+.accent-italic {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.wordmark {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+.wordmark .amp {
+  font-family: var(--font-accent);
+  font-style: italic;
+  color: var(--color-terracotta);
+  padding: 0 0.06em;
+}
+
+/* reference-style ghost headlines: huge, low-contrast serif over imagery */
+.ghost-title {
+  font-family: var(--font-serif);
+  color: color-mix(in srgb, #ffffff 88%, transparent);
+  text-shadow: 0 2px 40px rgba(10, 16, 26, 0.35);
+  letter-spacing: 0.01em;
+}
+
+/* wedding-invitation hero: giant centered serif brand with elegant ampersand */
+.hero-brand {
+  font-family: var(--font-serif);
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: 0 2px 46px rgba(10, 16, 26, 0.45);
+}
+.hero-brand .hero-amp {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 400;
+  display: inline-block;
+  font-size: 1.28em;
+  line-height: 0;
+  color: color-mix(in srgb, #ffffff 88%, var(--color-brass));
+  transform: translateY(0.015em);
+  padding: 0 0.04em;
+}
+.hero-date {
+  font-family: var(--font-sans);
+  font-weight: 500;
+}
+.accent-italic {
+  font-family: var(--font-accent);
+  font-style: italic;
+}
+
+/* white rounded card used across spaces/work/services */
+.ref-card {
+  background: var(--color-ivory-soft);
+  border: 1px solid var(--color-line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(22, 32, 47, 0.04);
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.ref-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px -24px rgba(22, 32, 47, 0.28);
+}
+
+/* guest-badge pill (e.g. "300 guests") */
+.badge-guests {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--color-ink);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 10px rgba(22, 32, 47, 0.12);
+  backdrop-filter: blur(4px);
+}
+.badge-guests svg {
+  color: var(--color-terracotta);
+}
+
+/* tag chip ("CRYSTAL CHANDELIERS") */
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-parchment);
+  color: var(--color-ink-soft);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.34rem 0.6rem;
+  border-radius: 6px;
+}
+
+/* ---------- buttons & links ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3rem;
+  padding: 0.9rem 1.9rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 999px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--color-forest);
+  color: #ffffff;
+  border: 1px solid var(--color-forest);
+}
+.btn-primary:hover {
+  background: var(--color-forest-deep);
+  border-color: var(--color-forest-deep);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-ink);
+  border: 1px solid color-mix(in srgb, var(--color-ink) 30%, transparent);
+}
+.btn-outline:hover {
+  border-color: var(--color-ink);
+}
+
+.btn-light {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  border: 1px solid var(--color-ivory);
+}
+.btn-light:hover {
+  background: transparent;
+  color: var(--color-ivory);
+  border-color: color-mix(in srgb, var(--color-ivory) 60%, transparent);
+}
+
+.btn-ghost-light {
+  background: transparent;
+  color: var(--color-ivory);
+  border: 1px solid color-mix(in srgb, var(--color-ivory) 45%, transparent);
+}
+.btn-ghost-light:hover {
+  border-color: var(--color-ivory);
+}
+
+.link-underline {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 2px;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  opacity: 0.35;
+  transform-origin: left;
+  transition: opacity 0.3s ease;
+}
+.link-underline:hover::after {
+  opacity: 1;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+a:hover .arrow,
+button:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* ---------- focus states ---------- */
+:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ---------- editorial flourishes ---------- */
+.hairline {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in srgb, var(--color-ink) 22%, transparent),
+    transparent
+  );
+}
+
+/* numbered section rails — "01 — THE STORY" down the left edge (desktop) */
+body {
+  counter-reset: kk-rail;
+}
+.kk-rail {
+  counter-increment: kk-rail;
+}
+.kk-rail-label::before {
+  content: "0" counter(kk-rail) " —";
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  opacity: 0.75;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-bottom: 0.9rem;
+}
+
+.img-frame {
+  overflow: hidden;
+  border-radius: 10px;
+  background: var(--color-parchment);
+}
+.img-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- reveal on scroll ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .arrow,
+  .btn,
+  a,
+  button {
+    transition: none !important;
+  }
+}
+
+/* ---------- scrollbar (subtle, cool) ---------- */
+@media (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-ivory);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-parchment-deep);
+    border-radius: 999px;
+    border: 2px solid var(--color-ivory);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-taupe);
+  }
+}

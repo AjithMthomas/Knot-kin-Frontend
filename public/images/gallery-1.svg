@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="460" viewBox="0 0 560 460" role="img" aria-label="Gathering · placeholder caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="430"/></clipPath>
+  </defs>
+  <rect width="560" height="460" fill="#EAE1D4"/>
+  <rect width="560" height="460" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="432" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g stroke="#302B26" stroke-width="1.2" fill="none" opacity="0.6">
+    <circle cx="120" cy="360" r="17"/>
+    <path d="M120 377 c-16 0 -24 14 -26 33 h52 c-2-19-10-33-26-33"/>
+    <circle cx="196" cy="352" r="17"/>
+    <path d="M196 369 c-16 0 -24 14 -26 33 h52 c-2-19-10-33-26-33"/>
+    <path d="M140 372 q22 -14 36 0" stroke="#A87963"/>
+  </g>
+<path d="M40 80 Q 145 126 250 60" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.5"/><path d="M250 60 Q 365 112 480 84" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.5"/><circle cx="80" cy="102" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="128" cy="110" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="176" cy="112" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/><circle cx="224" cy="106" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="272" cy="102" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="320" cy="104" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/><circle cx="368" cy="110" r="5.5" fill="none" stroke="#A87963" stroke-width="1.1" opacity="0.6"/><circle cx="416" cy="112" r="5.5" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.6"/><circle cx="464" cy="110" r="5.5" fill="none" stroke="#263C32" stroke-width="1.1" opacity="0.6"/>
+  </g>
+  <rect width="560" height="460" filter="url(#g1)"/>
+  <text x="26" y="434" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">GATHERING · PLACEHOLDER</text>
+</svg>

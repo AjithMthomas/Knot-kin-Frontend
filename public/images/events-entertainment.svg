@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="460" viewBox="0 0 560 460" role="img" aria-label="Entertainment · moodboard caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="430"/></clipPath>
+  </defs>
+  <rect width="560" height="460" fill="#1D2F27"/>
+  <rect width="560" height="460" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="432" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g fill="none" stroke="#302B26" stroke-width="1.2" opacity="0.65">
+    <rect x="176" y="270" width="34" height="58" rx="17"/>
+    <path d="M160 306 a33 33 0 0 0 66 0 M193 336 v26 M176 362 h34"/>
+  </g>
+<path d="M90.12490209762464 0 v 160.73047677123031" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="90.12490209762464" cy="185.41737048459925" r="12.343446856684468" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="90.12490209762464" cy="185.41737048459925" r="5.6" fill="#AA9475" opacity="0.5"/><path d="M165.24530173581587 0 v 162.898971565905" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="165.24530173581587" cy="186.03250551226782" r="11.56676697318141" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="165.24530173581587" cy="186.03250551226782" r="5.2" fill="#AA9475" opacity="0.5"/><path d="M226.61011789982217 0 v 112.13943243691645" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="226.61011789982217" cy="129.11895956296377" r="8.48976356302366" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="226.61011789982217" cy="129.11895956296377" r="3.8" fill="#AA9475" opacity="0.5"/><path d="M297.8249561393866 0 v 109.39397999029046" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="297.8249561393866" cy="130.79606105647613" r="10.701040533092842" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="297.8249561393866" cy="130.79606105647613" r="4.8" fill="#AA9475" opacity="0.5"/><path d="M377.5530307270149 0 v 154.53276827515361" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="377.5530307270149" cy="174.40509827193347" r="9.936164998389934" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="377.5530307270149" cy="174.40509827193347" r="4.5" fill="#AA9475" opacity="0.5"/><path d="M464.5006076698197 0 v 121.99039173497853" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="464.5006076698197" cy="146.57543498703782" r="12.29252162602965" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="464.5006076698197" cy="146.57543498703782" r="5.5" fill="#AA9475" opacity="0.5"/>
+<path d="M120 300 c 3.3000000000000003 15.400000000000002 9.9 22 24.200000000000003 25.3 c -14.3 3.3000000000000003 -20.900000000000002 9.9 -24.200000000000003 25.3 c -3.3000000000000003 -15.400000000000002 -9.9 -22 -24.200000000000003 -25.3 c 14.3 -3.3000000000000003 20.900000000000002 -9.9 24.200000000000003 -25.3 Z" fill="#AA9475" opacity="0.5"/>
+  </g>
+  <rect width="560" height="460" filter="url(#g1)"/>
+  <text x="26" y="434" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">ENTERTAINMENT · MOODBOARD</text>
+</svg>

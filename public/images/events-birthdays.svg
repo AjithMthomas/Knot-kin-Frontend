@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="460" viewBox="0 0 560 460" role="img" aria-label="Birthdays · moodboard caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="430"/></clipPath>
+  </defs>
+  <rect width="560" height="460" fill="#FAF7F1"/>
+  <rect width="560" height="460" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="432" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g fill="none" stroke="#302B26" stroke-width="1.2" opacity="0.65">
+    <path d="M150 350 h90 v44 h-90 z"/>
+    <path d="M162 350 v-34 h66 v34"/>
+    <path d="M174 316 v-18 h46 v18"/>
+    <path d="M192 298 v-14 M204 298 v-10"/>
+    <path d="M192 284 l-4 8 h8 z" fill="#A87963" opacity="0.7"/>
+  </g>
+<rect x="465.1363874647174" y="139.17033335582386" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(37.89916615737525 465.1363874647174 139.17033335582386)"/><circle cx="380.9230911740317" cy="180.56143169343602" r="4.0" fill="#AA9475" opacity="0.4"/><circle cx="392.23292992658253" cy="182.2845461333958" r="3.8" fill="#263C32" opacity="0.4"/><rect x="419.3732659885411" y="131.14081146767438" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(67.36166010365045 419.3732659885411 131.14081146767438)"/><circle cx="371.47659541245235" cy="208.6677670280149" r="3.9" fill="#AA9475" opacity="0.4"/><circle cx="265.8740914481451" cy="246.80830959864733" r="2.7" fill="#263C32" opacity="0.4"/><rect x="285.744403661922" y="246.93859969911966" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(123.93025973246458 285.744403661922 246.93859969911966)"/><circle cx="343.2518634602911" cy="188.16356510218566" r="4.3" fill="#AA9475" opacity="0.4"/><circle cx="223.7881577795261" cy="147.01566717309476" r="3.2" fill="#263C32" opacity="0.4"/><rect x="127.13220434927587" y="140.59872903916866" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(77.1245954904003 127.13220434927587 140.59872903916866)"/><circle cx="189.74429658590284" cy="249.33448878054926" r="4.0" fill="#AA9475" opacity="0.4"/><circle cx="446.2548815144737" cy="99.96587684840512" r="3.6" fill="#263C32" opacity="0.4"/><rect x="283.87251938122563" y="161.6453144947489" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(34.73098193735907 283.87251938122563 161.6453144947489)"/><circle cx="459.9466976150374" cy="99.32957264997957" r="3.2" fill="#AA9475" opacity="0.4"/><circle cx="352.34525566207736" cy="247.1391399550616" r="2.8" fill="#263C32" opacity="0.4"/><rect x="238.47353955588633" y="138.210980941738" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(65.60220801793244 238.47353955588633 138.210980941738)"/>
+<path d="M78.17480702155717 0 v 129.76433718461945" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="78.17480702155717" cy="150.1442603405046" r="10.18996157794256" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="78.17480702155717" cy="150.1442603405046" r="4.6" fill="#AA9475" opacity="0.5"/><path d="M158.73704988764325 0 v 121.5548665621829" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="158.73704988764325" cy="146.43280397116467" r="12.438968704490893" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="158.73704988764325" cy="146.43280397116467" r="5.6" fill="#AA9475" opacity="0.5"/><path d="M230.9880830710643 0 v 160.96991144583552" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="230.9880830710643" cy="182.59147461372567" r="10.810781583945063" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="230.9880830710643" cy="182.59147461372567" r="4.9" fill="#AA9475" opacity="0.5"/><path d="M311.22439398916845 0 v 140.94491359586354" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="311.22439398916845" cy="161.00430955551965" r="10.029697979828061" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="311.22439398916845" cy="161.00430955551965" r="4.5" fill="#AA9475" opacity="0.5"/><path d="M388.5358808641656 0 v 166.9940235577468" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="388.5358808641656" cy="185.75468868087484" r="9.38033256156401" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="388.5358808641656" cy="185.75468868087484" r="4.2" fill="#AA9475" opacity="0.5"/><path d="M464.9975621374301 0 v 124.54608839894281" stroke="#8C8175" stroke-width="0.8" opacity="0.5"/><circle cx="464.9975621374301" cy="145.5884045181688" r="10.521158059612995" fill="none" stroke="#A87963" stroke-width="1.2" opacity="0.65"/><circle cx="464.9975621374301" cy="145.5884045181688" r="4.7" fill="#AA9475" opacity="0.5"/>
+  </g>
+  <rect width="560" height="460" filter="url(#g1)"/>
+  <text x="26" y="434" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">BIRTHDAYS · MOODBOARD</text>
+</svg>

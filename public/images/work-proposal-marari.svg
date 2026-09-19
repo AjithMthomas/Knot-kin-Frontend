@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="640" viewBox="0 0 560 640" role="img" aria-label="Proposal at Marari · placeholder caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="610"/></clipPath>
+  </defs>
+  <rect width="560" height="640" fill="#FAF7F1"/>
+  <rect width="560" height="640" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="612" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g stroke="#302B26" stroke-width="1.2" fill="none" opacity="0.65">
+    <path d="M60 420 h360"/>
+    <path d="M110 420 c0-70 8-96 26-96 18 0 26 26 26 96"/>
+    <rect x="210" y="330" width="120" height="90" rx="3"/>
+    <path d="M210 348 h120"/>
+    <circle cx="402" cy="382" r="26"/>
+    <path d="M402 356 v-22 M395 334 h14 M402 334 v-10"/>
+    <path d="M368 420 v-30 q34 -18 68 0 v30"/>
+  </g>
+<path d="M40 330 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.5"/><path d="M40 356 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.41000000000000003"/><path d="M40 382 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.32"/><path d="M40 408 q 30 -14 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" fill="none" stroke="#AA9475" stroke-width="1.1" opacity="0.22999999999999998"/>
+
+  <g fill="none" stroke="#263C32" stroke-width="1.2" opacity="0.55">
+    <path d="M380 400 q -4 -110 8 -170"/>
+    <path d="M388 230 q -40 -26 -78 -18 M388 230 q 40 -26 78 -18 M388 230 q -24 -44 -60 -52 M388 230 q 24 -44 60 -52 M388 230 q 0 -50 -14 -66 M388 230 q 4 -50 22 -62"/>
+    <path d="M374 400 q 14 -18 28 0"/>
+  </g>
+  </g>
+  <rect width="560" height="640" filter="url(#g1)"/>
+  <text x="26" y="614" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">PROPOSAL AT MARARI · PLACEHOLDER</text>
+</svg>

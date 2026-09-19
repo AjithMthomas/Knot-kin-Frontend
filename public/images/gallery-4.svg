@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="460" viewBox="0 0 560 460" role="img" aria-label="Celebration · placeholder caption placeholder">
+  <defs>
+    <filter id="g1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0.040 0"/>
+</filter><filter id="p1" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="3" seed="11" stitchTiles="stitch"/>
+  <feColorMatrix type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.49  0 0 0 0 0.42  0 0 0 0.06 0"/>
+</filter>
+    <clipPath id="clip"><rect x="15" y="15" width="530" height="430"/></clipPath>
+  </defs>
+  <rect width="560" height="460" fill="#FAF7F1"/>
+  <rect width="560" height="460" filter="url(#p1)"/>
+  <rect x="14" y="14" width="532" height="432" fill="none" stroke="#D9CFBF" stroke-width="1" opacity="0.9"/>
+  <g clip-path="url(#clip)">
+    
+  <g fill="none" stroke="#302B26" stroke-width="1.2" opacity="0.65">
+    <path d="M150 350 h90 v44 h-90 z"/>
+    <path d="M162 350 v-34 h66 v34"/>
+    <path d="M174 316 v-18 h46 v18"/>
+    <path d="M192 298 v-14 M204 298 v-10"/>
+    <path d="M192 284 l-4 8 h8 z" fill="#A87963" opacity="0.7"/>
+  </g>
+<rect x="163.47144244562037" y="153.57065664936852" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(160.9699117587599 163.47144244562037 153.57065664936852)"/><circle cx="112.08396927647662" cy="173.17430262283824" r="4.3" fill="#AA9475" opacity="0.4"/><circle cx="340.2502368206626" cy="246.75989584229876" r="4.3" fill="#263C32" opacity="0.4"/><rect x="142.77897551914583" y="254.68531550810235" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(101.75059719174226 142.77897551914583 254.68531550810235)"/><circle cx="358.9252786514585" cy="135.26613143763143" r="2.9" fill="#AA9475" opacity="0.4"/><circle cx="308.34075269134786" cy="98.89872081475214" r="3.9" fill="#263C32" opacity="0.4"/><rect x="374.1940382813979" y="174.69182861940175" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(5.891584088924885 374.1940382813979 174.69182861940175)"/><circle cx="108.53479918887355" cy="246.23503475565" r="3.9" fill="#AA9475" opacity="0.4"/><circle cx="452.93010688659746" cy="96.30035888524759" r="4.2" fill="#263C32" opacity="0.4"/><rect x="496.8048960499511" y="252.2294300210005" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(137.6792722080641 496.8048960499511 252.2294300210005)"/><circle cx="244.6248118063666" cy="132.19632904249832" r="4.3" fill="#AA9475" opacity="0.4"/><circle cx="235.25217391108364" cy="129.90711187469503" r="4.3" fill="#263C32" opacity="0.4"/><rect x="305.86152384603537" y="149.7444907480334" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(111.87197477731107 305.86152384603537 149.7444907480334)"/><circle cx="383.35261551975515" cy="146.95384559869194" r="3.3" fill="#AA9475" opacity="0.4"/><circle cx="147.3955584945116" cy="142.9914637356917" r="4.5" fill="#263C32" opacity="0.4"/><rect x="338.2592826134146" y="238.2725122973998" width="7" height="12" rx="2" fill="#A87963" opacity="0.45" transform="rotate(165.29754964196826 338.2592826134146 238.2725122973998)"/>
+  </g>
+  <rect width="560" height="460" filter="url(#g1)"/>
+  <text x="26" y="434" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="2.5" fill="#55504A" opacity="0.85">CELEBRATION · PLACEHOLDER</text>
+</svg>
