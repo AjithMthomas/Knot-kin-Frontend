@@ -48,12 +48,7 @@ export default function ServicesPage() {
                   />
                 </div>
                 <div>
-                  <div className="flex items-baseline gap-4">
-                    <span className="font-serif text-sm text-terracotta">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <h2 className="font-serif text-2xl text-ink md:text-[2rem]">{s.name}</h2>
-                  </div>
+                  <h2 className="font-serif text-2xl text-ink md:text-[2rem]">{s.name}</h2>
                   <p className="mt-4 text-[0.95rem] leading-relaxed text-ink-soft">{s.description}</p>
 
                   <h3 className="eyebrow mt-7 text-taupe">What&apos;s included</h3>

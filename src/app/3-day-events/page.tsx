@@ -89,8 +89,7 @@ export default function ThreeDayEventsPage() {
           {process.map((s, i) => (
             <Reveal key={s.t} delay={i * 90}>
               <li className="h-full rounded-sm border border-line bg-ivory p-6">
-                <span className="font-serif text-2xl text-terracotta">0{i + 1}</span>
-                <h3 className="mt-3 font-serif text-lg leading-snug text-ink">{s.t}</h3>
+                <h3 className="mt-1 font-serif text-lg leading-snug text-ink">{s.t}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-soft">{s.d}</p>
               </li>
             </Reveal>

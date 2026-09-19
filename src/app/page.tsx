@@ -165,7 +165,6 @@ export default function HomePage() {
               ].map((s, i) => (
                 <Reveal key={s.n} delay={i * 100}>
                   <li className="group flex items-baseline gap-6 border-t border-ink/10 py-6 last:border-b">
-                    <span className="font-serif text-lg text-terracotta">{s.n}</span>
                     <div>
                       <h3 className="font-serif text-xl text-ink md:text-2xl">{s.t}</h3>
                       <p className="mt-1 text-sm text-ink-soft">{s.d}</p>
@@ -231,7 +230,6 @@ export default function HomePage() {
                   <span className="grid h-12 w-12 place-items-center rounded-full border border-ivory/25 text-brass">
                     <Icon name={a.icon} size={21} strokeWidth={1.2} />
                   </span>
-                  <span className="font-serif text-lg text-ivory/40">{a.n}</span>
                 </div>
                 <h3 className="mt-5 font-serif text-xl text-ivory">{a.title}</h3>
                 <p className="mt-2.5 text-sm leading-relaxed text-ivory/70">{a.text}</p>
@@ -328,7 +326,6 @@ export default function HomePage() {
           {steps.map((s, i) => (
             <Reveal key={s.n} delay={i * 80}>
               <li className="border-t-2 border-terracotta/40 pt-5">
-                <span className="font-serif text-sm text-terracotta">{s.n}</span>
                 <h3 className="mt-2 font-serif text-lg leading-snug text-ink">{s.title}</h3>
                 <p className="mt-2 text-[0.82rem] leading-relaxed text-ink-soft">{s.text}</p>
               </li>

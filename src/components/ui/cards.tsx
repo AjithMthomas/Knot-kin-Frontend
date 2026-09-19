@@ -77,7 +77,6 @@ export function ServiceCard({ service, index = 0 }: { service: Service; index?: 
           <span className="grid h-12 w-12 place-items-center rounded-full bg-parchment text-forest transition-colors duration-500 group-hover:bg-forest group-hover:text-white">
             <Icon name={service.icon} size={22} strokeWidth={1.2} />
           </span>
-          <span className="font-serif text-sm text-taupe">{String(index + 1).padStart(2, "0")}</span>
         </div>
         <h3 className="font-serif text-xl leading-snug text-ink">{service.name}</h3>
         <p className="mt-2.5 text-sm leading-relaxed text-ink-soft">{service.short}</p>
