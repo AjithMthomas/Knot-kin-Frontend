@@ -54,10 +54,28 @@ export function Header() {
             : "border-b border-transparent bg-transparent"
         }`}
       >
-        <div className="mx-auto grid h-20 w-full max-w-7xl grid-cols-[1fr_auto_1fr] items-center px-5 sm:px-8 md:h-[5.5rem]">
-          {/* left: desktop nav (empty placeholder on mobile) */}
-          <div className="flex items-center">
-            <nav aria-label="Primary" className="hidden items-center gap-7 xl:flex 2xl:gap-9">
+        <div className="mx-auto flex h-20 w-full max-w-7xl items-center justify-between px-5 sm:px-8 md:h-[5.5rem]">
+          {/* left: brand logo & desktop navigation */}
+          <div className="flex items-center gap-8 lg:gap-12">
+            <Link
+              href="/"
+              className="group relative shrink-0"
+              aria-label={`${site.name} — home`}
+            >
+              <span className="relative block h-14 w-14 md:h-16 md:w-16 drop-shadow-[0_2px_10px_rgba(10,16,26,0.55)]">
+                <Image
+                  src={overDark ? "/images/logo-mark.svg" : "/images/logo-mark-slate.svg"}
+                  alt="knot&kin"
+                  width={64}
+                  height={78}
+                  className="h-full w-full object-contain object-left transition-opacity duration-500"
+                  priority
+                  unoptimized
+                />
+              </span>
+            </Link>
+
+            <nav aria-label="Primary" className="hidden items-center gap-6 xl:flex 2xl:gap-8">
               {nav.map((item) => {
                 const active = pathname === item.href || pathname.startsWith(item.href + "/");
                 return (
@@ -79,25 +97,6 @@ export function Header() {
               })}
             </nav>
           </div>
-
-          {/* center: brand logo (ivory over dark hero, slate on light bar) */}
-          <Link
-            href="/"
-            className="group relative justify-self-center"
-            aria-label={`${site.name} — home`}
-          >
-            <span className="relative block h-[4.5rem] w-[4.5rem] md:h-20 md:w-20 drop-shadow-[0_2px_10px_rgba(10,16,26,0.55)]">
-              <Image
-                src={overDark ? "/images/logo-mark.svg" : "/images/logo-mark-slate.svg"}
-                alt="knot&kin"
-                width={80}
-                height={97}
-                className="h-full w-full object-contain object-center transition-opacity duration-500"
-                priority
-                unoptimized
-              />
-            </span>
-          </Link>
 
           {/* right: mobile hamburger / desktop CTA */}
           <div className="flex items-center justify-end gap-3">
