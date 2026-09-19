@@ -27,7 +27,7 @@ export function LoadingScreen() {
 
   return (
     <div
-      className={`fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-forest-deep px-6 transition-opacity duration-700 ease-out ${
+      className={`fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-white px-6 transition-opacity duration-700 ease-out ${
         fading ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
       aria-label="Loading Knot&Kin"
@@ -36,27 +36,27 @@ export function LoadingScreen() {
         {/* Ambient glow behind logo */}
         <div
           aria-hidden="true"
-          className="absolute -top-10 h-44 w-44 rounded-full bg-brass/15 blur-3xl animate-pulse"
+          className="absolute -top-10 h-44 w-44 rounded-full bg-brass/10 blur-3xl animate-pulse"
         />
 
         {/* Brand logo with text */}
         <div className="relative h-28 w-64 sm:h-36 sm:w-80">
           <Image
-            src="/images/logo-with-text.png"
+            src="/images/logo-full-slate.svg"
             alt="knot&kin — For the moments that matter."
             fill
-            className="object-contain drop-shadow-[0_4px_20px_rgba(0,0,0,0.4)]"
+            className="object-contain drop-shadow-[0_2px_12px_rgba(0,0,0,0.08)]"
             priority
             unoptimized
           />
         </div>
 
         {/* Elegant loading progress line */}
-        <div className="mt-8 h-[2px] w-48 overflow-hidden rounded-full bg-white/15">
-          <div className="h-full w-full bg-gradient-to-r from-brass via-white to-brass animate-[loading-bar_1.6s_ease-in-out_infinite]" />
+        <div className="mt-8 h-[2px] w-48 overflow-hidden rounded-full bg-charcoal/10">
+          <div className="h-full w-full bg-gradient-to-r from-brass via-terracotta to-brass animate-[loading-bar_1.6s_ease-in-out_infinite]" />
         </div>
 
-        <p className="accent-italic mt-4 text-sm text-ivory/70 tracking-wider">
+        <p className="accent-italic mt-4 text-sm text-charcoal/70 tracking-wider">
           For the moments that matter.
         </p>
       </div>

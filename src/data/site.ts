@@ -11,9 +11,9 @@ export const site = {
   description:
     "Knot&Kin creates thoughtful weddings, private celebrations, corporate events and memorable gatherings for under 300 guests across Kerala.",
   url: "https://knotandkin.in", // placeholder — update when domain is final
-  whatsappNumber: "KNOTKIN_WHATSAPP_NUMBER", // placeholder — international format, digits only e.g. 919876543210
+  whatsappNumber: "919995065389",
   email: "hello@knotandkin.in", // placeholder
-  phoneDisplay: "+91 00000 00000", // placeholder
+  phoneDisplay: "+91 99950 65389",
   location: "Kerala, India",
   hours: "Monday – Saturday · 9:30 am – 6:30 pm IST",
   social: {

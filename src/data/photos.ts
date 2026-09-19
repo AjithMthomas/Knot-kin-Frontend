@@ -39,14 +39,14 @@ export const photo = {
 
 export const heroSlides = [
   {
+    src: "/images/bg-2.png",
+    fallback: "/images/hero-home-dark.svg",
+    alt: "Beautiful event setting — Knot&Kin background 1",
+  },
+  {
     src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2000&auto=format&fit=crop",
     fallback: "/images/hero-home-dark.svg",
     alt: "Wedding ceremony arch beneath open skies — Knot&Kin",
-  },
-  {
-    src: "/images/bg-2.png",
-    fallback: "/images/hero-home-dark.svg",
-    alt: "Beautiful event setting — Knot&Kin background 2",
   },
   {
     src: "/images/bg-3.png",

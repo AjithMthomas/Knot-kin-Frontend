@@ -6,14 +6,14 @@ import { heroSlides, photo } from "@/data/photos";
 
 const slides = [
   {
+    src: "/images/bg-2.png",
+    fallback: "/images/hero-home-dark.svg",
+    alt: "Beautiful event setting — Knot&Kin background 1",
+  },
+  {
     src: photo.heroHome.src,
     fallback: photo.heroHome.fallback,
     alt: "Wedding ceremony arch beneath open skies — Knot&Kin",
-  },
-  {
-    src: "/images/bg-2.png",
-    fallback: "/images/hero-home-dark.svg",
-    alt: "Beautiful event setting — Knot&Kin background 2",
   },
   {
     src: "/images/bg-3.png",

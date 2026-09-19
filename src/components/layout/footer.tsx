@@ -61,6 +61,17 @@ export function Footer() {
                 </Link>
               </li>
               <li className="flex items-start gap-2.5">
+                <Icon name="whatsapp" size={15} className="mt-0.5 shrink-0 text-brass" />
+                <a
+                  href={whatsappUrl(`Hello ${site.name}! I'd like to enquire about planning an event.`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:text-brass"
+                >
+                  {site.phoneDisplay}
+                </a>
+              </li>
+              <li className="flex items-start gap-2.5">
                 <Icon name="pin" size={15} className="mt-0.5 shrink-0 text-brass" />
                 <span>{site.location}</span>
               </li>
